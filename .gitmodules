@@ -1,0 +1,3 @@
+[submodule "vendor/LargeXMLSitemap"]
+	path = vendor/LargeXMLSitemap
+	url = git://github.com/MyHammerOpenSource/LargeXMLSitemap.git
