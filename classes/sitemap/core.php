@@ -65,9 +65,9 @@ class Sitemap_Core {
 	/**
 	 * Wraps the cXmlSitemapGeneratorWrite::update_index() method
 	 */
-	public function update_index($file)
+	public function update_index($file,$compressed=False)
 	{
-		$this->_generator->updateSitemapIndex($file);
+		$this->_generator->updateSitemapIndex($file,$compressed);
 	}
 }
 
